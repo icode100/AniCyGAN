@@ -22,7 +22,7 @@ else:
     with col1:
         with st.container(border=10):
             st.write('### Once have a look at the image you uploaded')
-            st.image((st.session_state.input_photo*0.5+0.5).permute(1,2,0).numpy())
+            st.image((st.session_state.input_photo*0.5+0.5).permute(1,2,0).numpy(),clamp=True)
         
     with col2:
         with st.container(border=True):
