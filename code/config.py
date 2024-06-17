@@ -2,12 +2,15 @@ from torchvision import transforms
 import os
 from typing import Callable
 import torch
+
+
 if not os.path.isdir("AnimeGAN/checkpoints"):
     os.mkdir("AnimeGAN/checkpoints")
 if not os.path.isdir("AnimeGAN/gen_photo"):
     os.mkdir("AnimeGAN/gen_photo")
 if not os.path.isdir("AnimeGAN/gen_anime"):
     os.mkdir("AnimeGAN/gen_anime")
+
 
 class Config:
     LEARNING_RATE:float = 0.0002
@@ -31,6 +34,6 @@ class Config:
     preprocess:transforms.transforms.Compose = transforms.Compose([
         transforms.ToTensor(),
         transforms.Resize(256),
-        transforms.RandomHorizontalFlip(p=0.5),
+        # transforms.RandomHorizontalFlip(p=0.5), --> uncomment only during training
         transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5]),
     ])
