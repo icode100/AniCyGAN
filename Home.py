@@ -3,7 +3,6 @@ import torch
 from code.config import Config
 from PIL import Image
 config = Config()
-import matplotlib.pyplot as plt
 import numpy as np
 st.write(
 '''
