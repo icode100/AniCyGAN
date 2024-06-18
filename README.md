@@ -37,7 +37,7 @@ Cycle GANs are used for this task, which consist of two sets of generators and d
 
 ## Sample
 
-![phto sample](__results__\combined.png)
+![phto sample](https://github.com/icode100/AniCyGAN/blob/main/__results__/combined.png)
 <i>The above results are generated from sample phtographs taken by [Mahathi Bodela](https://github.com/mahathibodela) the first row shows the real images taken from camera the second row shows the generated anime images in Hayao Miyazaki's style and the 3rd row shows the images taken in Makoto Shinkai's style<i>
 #### PC: [Mahathi Bodela](https://github.com/mahathibodela)
 
@@ -79,8 +79,8 @@ To look for the training references look up for the `code` directory and the jup
 
 ## Charts
 
-![](__results__\shinkai_loss_curve.png)
+![](https://github.com/icode100/AniCyGAN/blob/main/__results__/shinkai_loss_curve.png)
 *Loss curve for Makoto Shinkai's style GAN the <span style='color:red'>red</span> line depicts generator loss and <span style='color:blue'>blue</span> line depicts discriminator loss*
 
-![](__results__\miyazaki_loss_curve.png)
+![](https://github.com/icode100/AniCyGAN/blob/main/__results__/miyazaki_loss_curve.png)
 *Loss curve for Hayao Miyazaki's style GAN the <span style='color:red'>red</span> line depicts generator loss and <span style='color:blue'>blue</span> line depicts discriminator loss*
