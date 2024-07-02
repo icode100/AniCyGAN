@@ -76,11 +76,3 @@ The dataset is taken from kaggle named [AnimeGAN](https://www.kaggle.com/dataset
 
 To look for the training references look up for the `code` directory and the jupyter notebooks in `training_notebooks` directory. 
 
-
-## Charts
-
-![](https://github.com/icode100/AniCyGAN/blob/main/__results__/shinkai_loss_curve.png)
-*Loss curve for Makoto Shinkai's style GAN the <span style='color:red'>red</span> line depicts generator loss and <span style='color:blue'>blue</span> line depicts discriminator loss*
-
-![](https://github.com/icode100/AniCyGAN/blob/main/__results__/miyazaki_loss_curve.png)
-*Loss curve for Hayao Miyazaki's style GAN the <span style='color:red'>red</span> line depicts generator loss and <span style='color:blue'>blue</span> line depicts discriminator loss*
