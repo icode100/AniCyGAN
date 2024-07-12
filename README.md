@@ -19,7 +19,6 @@ This project uses a Cycle GAN model with identity loss to translate natural imag
 - [Usage](#usage)
 - [Dataset](#dataset)
 - [Training](#training)
-- [Loss Curves](#charts)
 
 
 ## Introduction
