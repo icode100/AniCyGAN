@@ -4,7 +4,7 @@ This project uses a Cycle GAN model with identity loss to translate natural imag
 
 <table align="left">
   <td>
-    <a href="https://www.kaggle.com/code/mightywarrior001/anicygan/" target="_parent"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Colab"/></a>
+    <a href="https://www.kaggle.com/code/pothedragonwarrior/anicygan" target="_parent"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In kaggle"/></a>
   </td>
 </table>
 
