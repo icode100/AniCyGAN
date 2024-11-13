@@ -2,11 +2,8 @@
 
 This project uses a Cycle GAN model with identity loss to translate natural images into anime-style images. The model can generate images in the styles of two renowned anime creators, Hayao Miyazaki and Makoto Shinkai.
 
-<table align="left">
-  <td>
-    <a href="https://www.kaggle.com/code/pothedragonwarrior/anicygan" target="_parent"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In kaggle"/></a>
-  </td>
-</table>
+<a href="https://www.kaggle.com/code/pothedragonwarrior/anicygan"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle" /></a>
+
 
 <br>
 
